@@ -22,3 +22,9 @@ imgenius用户使用手册
 4. [安装MongoDB](附录/安装MongoDB.md)
 
 5. [安装RabbitMQ](附录/安装RabbitMQ.md)
+
+### 用户使用手册
+
+1. [终端登录](用户使用手册/终端/登录.md)
+
+2. [web端登录](用户使用手册/Web端/登录.md)
