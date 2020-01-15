@@ -29,6 +29,8 @@
 
 附：
 
+[安装](安装.md)
+
 [安装PostgresSQL](附录/安装PostgresSQL.md)
 
 [安装MongoDB](附录/安装MongoDB.md)

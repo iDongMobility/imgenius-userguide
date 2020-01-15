@@ -37,6 +37,8 @@
 
 附：
 
+[安装](安装.md)
+
 [安装SQLServer](附录/安装SQLServer.md)
 
 [安装PostgresSQL](附录/安装PostgresSQL.md)
