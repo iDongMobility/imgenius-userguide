@@ -34,3 +34,11 @@
 注：其中“C:\Program Files\RabbitMQ Server”为RabbitMQ安装路径，如果安装时已修改，请改成修改后的；“密码,自行设置”为密码，用户可以设置成自己的密码。
 
 **4. 验证RabbitMQ**，在IE中输入网址 “http://localhost:15672”， 在UserName和Password分别输入admin和(密码,自行设置)，如果登录成功，表示安装成功。（如果已经验证忽略此步）
+
+附：
+
+[安装SQLServer](附录/安装SQLServer.md)
+
+[安装PostgresSQL](附录/安装PostgresSQL.md)
+
+[安装MongoDB](附录/安装MongoDB.md)

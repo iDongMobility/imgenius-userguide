@@ -72,3 +72,12 @@ imgenius系统使用MongoDB来承担文件服务器和内容服务器的组件�
 * 查看服务是否启动，如图即安装成功：
 
 ![mongo](./images/mongodb5.png)
+
+
+附：
+
+[安装SQLServer](附录/安装SQLServer.md)
+
+[安装PostgresSQL](附录/安装PostgresSQL.md)
+
+[安装RabbitMQ](附录/安装RabbitMQ.md)

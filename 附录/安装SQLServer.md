@@ -26,3 +26,11 @@
 **6. 安装完成之后**，如果需要可在官网下载SSMS的安装包，不需要则忽略此步，点击安装即可。
 
 ![shujuku](./images/shujuku9.png)
+
+附：
+
+[安装PostgresSQL](附录/安装PostgresSQL.md)
+
+[安装MongoDB](附录/安装MongoDB.md)
+
+[安装RabbitMQ](附录/安装RabbitMQ.md)

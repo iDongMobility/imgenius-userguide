@@ -15,4 +15,10 @@ imgenius用户使用手册
 
 1. [安装](安装.md)
 
-2. [安装MongoDB](附录/安装MongoDB.md)
+2. [安装SQLServer](附录/安装SQLServer.md)
+
+3. [安装PostgresSQL](附录/安装PostgresSQL.md)
+
+4. [安装MongoDB](附录/安装MongoDB.md)
+
+5. [安装RabbitMQ](附录/安装RabbitMQ.md)

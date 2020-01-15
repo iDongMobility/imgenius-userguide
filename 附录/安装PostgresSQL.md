@@ -26,3 +26,11 @@
 **后面可以根据需求选择性安装,下一步直到结束即可**
 
 ![pg](./images/pg6.png)
+
+附：
+
+[安装SQLServer](附录/安装SQLServer.md)
+
+[安装MongoDB](附录/安装MongoDB.md)
+
+[安装RabbitMQ](附录/安装RabbitMQ.md)
