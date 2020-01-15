@@ -27,7 +27,7 @@
 
 ![shujuku](./images/shujuku9.png)
 
-附：
+**附：**
 
 [安装](安装.md)
 

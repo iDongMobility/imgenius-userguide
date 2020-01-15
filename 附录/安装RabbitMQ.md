@@ -35,7 +35,7 @@
 
 **4). 验证RabbitMQ**，在IE中输入网址 “http://localhost:15672”， 在UserName和Password分别输入admin和(密码,自行设置)，如果登录成功，表示安装成功。（如果已经验证忽略此步）
 
-附：
+**附：**
 
 [安装](安装.md)
 
