@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>用户手册 - imgenius</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="imgenius 用户手册，包括安装、配置、使用、扩展和维护">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="#/">主页</a>
+    <a href="http://www.idongmobility.com/index.php/zh/" target="view_window">艾动</a>
+    <a href="http://www.idongmobility.com/index.php/zh/about.html" target="view_window">联系我们</a>
+  </nav>
+  <div id="app">加载中</div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: '',
+      loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      subMaxLevel: 1,
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '搜索',
+        noData: '找不到结果',
+        depth: 6
+      },
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/iDongMobility/imgenius-userguide/blob/master/',
+          null,
+          function (file) {
+            return '在GitHub上编辑'
+          }
+        )
+      ]
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+
+</body>
+
+</html>
