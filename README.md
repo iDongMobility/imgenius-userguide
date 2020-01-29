@@ -1,5 +1,4 @@
 # imgenius 用户使用手册
-[在线直接查看](https://idongmobility.github.io/imgenius-userguide)
 
 ## 目录
 
