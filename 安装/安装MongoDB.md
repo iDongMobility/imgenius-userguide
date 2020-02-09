@@ -1,3 +1,5 @@
+# 安装MongoDB
+
 **imgenius系统使用MongoDB来承担文件服务器和内容服务器的组件角色， MongoDB是一个基于分布式文件存储的数据库。以4.0版本为例，安装如下：**
 
 * 运行“mongodb-win32-x86_64-2008plus-ssl-4.0.8-signed.msi”安装MongoDB。（注：如果自行选择了安装路径，请确保安装路径无中文字符）
