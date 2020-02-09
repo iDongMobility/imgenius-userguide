@@ -29,10 +29,10 @@
 
 **附：**
 
-[安装](安装.md)
+[安装](安装/安装.md)
 
-[安装SQLServer](附录/安装SQLServer.md)
+[安装 SQLServer](安装/安装SQLServer.md)
 
-[安装MongoDB](附录/安装MongoDB.md)
+[安装 PostgresSQL](安装/安装PostgresSQL.md)
 
-[安装RabbitMQ](附录/安装RabbitMQ.md)
+[安装 RabbitMQ](安装/安装RabbitMQ.md)
