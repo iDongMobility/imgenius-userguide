@@ -37,6 +37,12 @@
         noData: '找不到结果',
         depth: 6
       },
+      pagination: {
+        previousText: '上一章节',
+        nextText: '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+      },
       plugins: [
         EditOnGithubPlugin.create(
           'https://github.com/iDongMobility/imgenius-userguide/blob/master/',
@@ -52,6 +58,7 @@
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 
