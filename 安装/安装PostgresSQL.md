@@ -1,6 +1,6 @@
 # 安装PostgresSQL
 
-## 1. 下载PGSQL
+## 下载PGSQL
 
 * 官网地址：https://www.postgresql.org/
 * 官方介绍文档：https://www.postgresql.org/about/
@@ -11,7 +11,7 @@
 ![pg](./images/pg1.png)
 ![pg](./images/pg2.png)
 
-## 2. 安装PGSQL
+## 安装PGSQL
 
 **点击下载完的安装文件，开始安装。安装过程很简单，一直下一步就行，其中有一步是设置密码（作用等同于SQLSever的SA密码）**
 
