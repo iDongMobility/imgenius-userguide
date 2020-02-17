@@ -140,7 +140,6 @@
   ![350](./3.8.1_res/images/16.png)
   ![350](./3.8.1_res/images/17.png)
 
-<span id="jump"></span>
 ### PBIN539：SDC部分实体支持定位
 
 * SDC实体新增定位功能，右键功能菜单中选择“定位”或者用快捷键Ctrl+L可以快速定位选中。
