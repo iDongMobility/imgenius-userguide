@@ -20,6 +20,18 @@
 
 通过[docsify-pdf-converter](https://github.com/meff34/docsify-to-pdf-converter)工具可以在本地生成PDF文档。
 
+### 安装
+
+```sh
+npm install --save-dev docsify-pdf-converter
+```
+
+### 转化
+
+```sh
+npm run convert
+```
+
 ## 支持
 
 若有其他任何问题或意见，请联系 [im@idongmobility.com](mailto:im@idongmobility.com)。
