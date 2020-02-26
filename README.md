@@ -16,4 +16,10 @@
 * [docsify](https://docsify.js.org/)（可选）
 * [Visual Studio Code](https://code.visualstudio.com/Download)（可选）
 
+## 生成PDF
+
+通过[docsify-pdf-converter](https://github.com/meff34/docsify-to-pdf-converter)工具可以在本地生成PDF文档。
+
+## 支持
+
 若有其他任何问题或意见，请联系 [im@idongmobility.com](mailto:im@idongmobility.com)。
