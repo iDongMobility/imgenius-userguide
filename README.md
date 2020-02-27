@@ -32,6 +32,10 @@ npm install --save-dev docsify-pdf-converter
 npm run convert
 ```
 
+## 许可
+
+请参阅 [LICENSE](LICENSE.md)了解许可信息。
+
 ## 支持
 
 若有其他任何问题或意见，请联系 [im@idongmobility.com](mailto:im@idongmobility.com)。
