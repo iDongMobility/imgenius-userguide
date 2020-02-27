@@ -30,103 +30,70 @@
 ## 作业组相关引用标签
 ```
 $im.tg.s.name[].e$			        // 作业组名称
-
 $im.tg.s.desc[.e$]			        // 作业组描述
-
 $im.tg.s.planStartTime[.e$]		    // 作业组计划开始时间
-
 $im.tg.s.planEndTime[.e$]		    // 作业组计划结束时间
-
 $im.tg.s.startTime[.e$]			    // 作业组开始时间
-
 $im.tg.s.endTime[.e$]			    // 作业组结束时间
-
 $im.tg.s.createTime[.e$]			// 作业组创建时间
 ```
 ## 流程活动相关引用标签
 
 ```
 $im.tg.e.活动实例名.name[.e$]		// 指定活动实例名称
-
 $im.tg.e.活动实例名.startTime[.e$]		// 指定活动实例开始时间
-
 $im.tg.e.活动实例名.endTime[.e$]		// 指定活动实例结束时间
-
 $im.tg.e.活动实例名.userName[.e$]	// 指定活动实例执行人
-
 $im.tg.e.活动实例名.state[.e$]		        // 指定活动实例状态	
-
 $im.tg.e.活动实例名.stateDesc[.e$]		// 指定活动实例意见
 ```
 ## 作业组属性相关引用标签
 ```
 $im.tg.a.作业组属性名称.name[.e$]		// 指定作业组属性名称
-
 $im.tg.a.作业组属性名称.value[.e$]		// 指定作业组属性值
-
 $im.tg.a.作业组属性名称.desc[.e$]		// 指定作业组属性描述
-
 $im.tg.a.作业组属性名称.inputTime[.e$]	// 指定作业组属性值的输入时间
 ```
 ## 指定项目相关引用标签
 ```
 $im.sp.a.项目属性名称.name[.e$]		// 指定项目属性名称
-
 $im.sp.a.项目属性名称.value[.e$]		// 指定项目属性值
-
 $im.sp.a.项目属性名称.desc[.e$]		// 指定项目属性描述
-
 $im.sp.a.项目属性名称.inputTime[.e$]	// 指定项目属性值的输入时间
 ```
 ## 指定作业或指定作业项相关引用标签
 ```
 $im.tg.i.namepath.name[.e$]		           // 指定作业（项）名称
-
 $im.tg.i.namepath.value[.e$]		          // 指定作业（项）值
-
 $im.tg.i.namepath.desc[.e$]		          // 指定作业（项）描述
-
 $im.tg.i.namepath.startTime[.e$]	          // 指定作业（项）开始时间
-
 $im.tg.i.namepath.endTime[.e$]	         // 指定作业（项）结束时间
-
 $im.tg.i.namepath.inputTime[.e$]	        // 指定作业（项）值的输入时间
-
 $im.tg.i.namepath.logicPic{m}[.e$]         //指定作业( 项）的逻辑照片  该作业（项）所有逻辑照片的第m张
-
 $im.tg.d.namepath.Name[.e$]              // 指定作业（项）对应资产名称
 ```
 ## 作业规范相关引用标签
 ```
 $im.ts.i.作业规范名{n}.namepath.name[.e$]	        // 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）名称
-
 $im.ts.i.作业规范名{n}.namepath.value[.e$]	        // 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）值
-
 $im.ts.i.作业规范名{n}.namepath.desc[.e$]	        // 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）描述
-
 $im.ts.i.作业规范名{n}.namepath.startTime[.e$]	// 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）开始时间
-
 $im.ts.i.作业规范名{n}.namepath.endTime[.e$]	// 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）结束时间
-
 $im.ts.i.作业规范名{n}.namepath.inputTime[.e$]	// 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）值的输入时间
-
 $im.ts.i.作业规范名{n}.namepath.logicPic{m}[.e$]    //对应由作业规范生成的作业实例（作业树从上往下数第n+1个）的作业（项）的所有逻辑照片的第m张
-
 $im.ts.d.作业规范名{n}.namepath.Name[.e$]         //对应由作业规范生成的作业实例（作业树从上往下数第n+1个）的作业（项）所对应的资产名称
 ```
 ## 资产属性相关引用标签
 ```
 $im.tg.da.namepath.属性名[.e$]                            //指定作业（项）对应资产的资产属性值
-
 $im.ts.da.作业规范名{n}.namepath.属性名[.e$]       //对应由作业规范生成的作业实例（作业树从上往下数第n+1个）的作业（项）对应资产的资产属性值
 ```
 ## 扩展函数相关引用标签
 ```
 $im.ext.t.FuncEx!FuncEx*FuncClass!GetComment()[.e$]                            //扩展函数返回文本内容替换通配符 
-
 $im.ext.o.FuncEx!FuncEx*FuncClass!InsertContent()[.e$]       //扩展函数没有返回值，用户可以按照需求处理文档
 ```
-## 注意： 
+## 注意 
 * 作业组属性和作业项的数据类型为Json时，将以原生的数据字符串进行替换。如果是文件类型，当第一个文件为图片时直接显示图片，否则以原生的数据字符串显示。
 
 * 在模板Excle文件中，在独立的单元格（可以是合并的单元格）中填写完整的引用标签。
