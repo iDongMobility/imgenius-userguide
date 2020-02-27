@@ -6,7 +6,7 @@
 
 ## 先决条件
 
-参与撰写文档需要一个 GitHub 帐户，如果还没有帐户，请自行创建。
+参与撰写文档需要一个 GitHub 帐户，如果还没有帐户，请自行创建。 [注册GitHub账户](https://github.com/join)
 
 ## 请安装以下工具
 
@@ -31,6 +31,10 @@ npm install --save-dev docsify-pdf-converter
 ```sh
 npm run convert
 ```
+
+## 许可
+
+请参阅 [LICENSE](LICENSE.md)了解许可信息。
 
 ## 支持
 
