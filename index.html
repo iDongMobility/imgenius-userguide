@@ -50,6 +50,21 @@
         headings: 'h2',
         title: '本页目录',
       },
+      flexibleAlerts: {
+        style: 'flat',
+        note: {
+          label: "备注"
+        },
+        tip: {
+          label: "提示"
+        },
+        warning: {
+          label: "警告"
+        },
+        danger: {
+          label: "注意"
+        }
+      },
       plugins: [
         EditOnGithubPlugin.create(
           'https://github.com/iDongMobility/imgenius-userguide/blob/master/',
@@ -67,6 +82,7 @@
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
   <script type="text/javascript" left="90%" bottom="5%" text="返回顶部" src="x-return-top.js"></script>
 
 </body>
