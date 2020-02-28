@@ -39,7 +39,7 @@ npm run convert
 * 如果用Visual Studio Code作为本地编辑器，推荐安装[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)扩展，并尽可能修复由此插件检查出来的不合规范的地方。
 * 文档间和文档内部的超链接请使用相对地址，禁止使用绝对地址。
 * 文档内部跳转请直接使用标题作为锚点，不要额外创建锚点。
-* 除在说明特定步骤时，尽量少用有序列表。
+* 除在描述特定步骤时，尽量少用有序列表。
 * 文字描述为主，截图或动画为辅，能用文字描述清楚的可不用截图。
 * 备注、提示、注意和禁止请按下面格式书写。
 
