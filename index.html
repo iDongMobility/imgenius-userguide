@@ -10,6 +10,7 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-toc@1.0.0/dist/toc.css">
   <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 </head>
 
@@ -29,7 +30,8 @@
         '/.*/_sidebar.md': '/_sidebar.md'
       },
       auto2top: true,
-      subMaxLevel: 2,
+      subMaxLevel: 0,
+      themeColor: '#ffa900',
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto',
@@ -43,12 +45,32 @@
         crossChapter: true,
         crossChapterText: true,
       },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h2',
+        title: '本页目录',
+      },
+      flexibleAlerts: {
+        style: 'flat',
+        note: {
+          label: "备注"
+        },
+        tip: {
+          label: "提示"
+        },
+        warning: {
+          label: "注意"
+        },
+        danger: {
+          label: "禁止"
+        }
+      },
       plugins: [
         EditOnGithubPlugin.create(
           'https://github.com/iDongMobility/imgenius-userguide/blob/master/',
           null,
           function (file) {
-            return '在GitHub上编辑'
+            return '编辑'
           }
         )
       ]
@@ -59,6 +81,9 @@
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script type="text/javascript" left="90%" bottom="5%" text="返回顶部" src="x-return-top.js"></script>
 
 </body>
 
