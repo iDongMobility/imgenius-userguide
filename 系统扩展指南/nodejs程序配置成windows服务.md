@@ -9,6 +9,7 @@
     ```
     nssm install <servicename>
     ```
+
     ![nssm](images/nssm服务1.png)
 * `Application`选项卡
     * `Path`
@@ -19,6 +20,7 @@
         `nodejs`程序主文件，如`app.js`
 
 * `Detail`选项卡
+    
     ![nssm](images/nssm服务2.png)
     * `Display name`
         服务显示名，如`iDong CustomKPI Service`
