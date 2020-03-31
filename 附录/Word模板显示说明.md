@@ -30,7 +30,7 @@
 # 引用标签
 ## 作业组相关引用标签
 ```
-$im.tg.s.name[].e$			        // 作业组名称
+$im.tg.s.name[.e$]			        // 作业组名称
 $im.tg.s.desc[.e$]			        // 作业组描述
 $im.tg.s.planStartTime[.e$]		    // 作业组计划开始时间
 $im.tg.s.planEndTime[.e$]		    // 作业组计划结束时间
@@ -74,7 +74,7 @@ $im.tg.i.namepath.desc[.e$]		          // 指定作业（项）描述
 $im.tg.i.namepath.startTime[.e$]	          // 指定作业（项）开始时间
 $im.tg.i.namepath.endTime[.e$]	         // 指定作业（项）结束时间
 $im.tg.i.namepath.inputTime[.e$]	        // 指定作业（项）值的输入时间
-$im.tg.i.namepath.logicPic{m}[.e$]         //指定作业( 项）的逻辑照片  该作业（项）所有逻辑照片的第m张
+$im.tg.i.namepath.logicPic{m}[.e$]         //指定作业( 项）的逻辑照片  该作业（项）所有逻辑照片的第m+1张
 $im.tg.d.namepath.Name[.e$]              // 指定作业（项）对应资产名称
 ```  
 
@@ -86,7 +86,7 @@ $im.ts.i.作业规范名{n}.namepath.desc[.e$]	        // 对应由作业规范�
 $im.ts.i.作业规范名{n}.namepath.startTime[.e$]	// 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）开始时间
 $im.ts.i.作业规范名{n}.namepath.endTime[.e$]	// 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）结束时间
 $im.ts.i.作业规范名{n}.namepath.inputTime[.e$]	// 对应由作业规范生成的作业实例(作业树从上往下数第n+1个）的作业（项）值的输入时间
-$im.ts.i.作业规范名{n}.namepath.logicPic{m}[.e$]    //对应由作业规范生成的作业实例（作业树从上往下数第n+1个）的作业（项）的所有逻辑照片的第m张
+$im.ts.i.作业规范名{n}.namepath.logicPic{m}[.e$]    //对应由作业规范生成的作业实例（作业树从上往下数第n+1个）的作业（项）的所有逻辑照片的第m+1张
 $im.ts.d.作业规范名{n}.namepath.Name[.e$]         //对应由作业规范生成的作业实例（作业树从上往下数第n+1个）的作业（项）所对应的资产名称
 ```  
 
