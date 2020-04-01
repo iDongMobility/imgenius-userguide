@@ -10,7 +10,7 @@
   * [安装 PostgresSQL](安装/安装PostgresSQL.md)
   * [安装 MongoDB](安装/安装MongoDB.md)
   * [安装 RabbitMQ](安装/安装RabbitMQ.md)
-  * [安装 Net Framework](安装/安装Net Framework.md)
+  * [安装 NetFramework](安装/安装NetFramework.md)
 
 * 快速入门
   * [概述](快速入门/概述.md)
