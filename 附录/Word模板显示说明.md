@@ -1,8 +1,8 @@
 # [Word模板下载](./Word/动火安全作业证.docx)
 # EOC报表详情Word展显示
-![](./Word/EOC展示.png)
+![](附录/Word/EOC展示.png)
 # [Word输出结果下载](./Word/动火安全作业证输出.docx)
-![](./Word/Word输出.png)
+![](附录/Word/Word输出.png)
 
 # 使用说明
 * 在作业组的属性中添加文件类型的作业组属性，属性名为"$DisplayTemplate"，添加一个模板文件，该文件必须是office excel 2007版以上（即文件后缀必须为.xlsx）或office word 2007版以上（即文件后缀必须为.docx），在作业组显示的处多一种显示方式（可以有多个模板文件）。
