@@ -1,3 +1,5 @@
+本库已迁移到 [https://github.com/iDongMobility/imgenius-docs](https://github.com/iDongMobility/imgenius-docs) ，此库不在维护。
+
 # imgenius 用户手册
 
 欢迎使用艾动科技imgenius的开源文档，参与开源不仅仅是提供更新，它也让我们知道何时出现问题。请查看此自述文件以了解如何帮助参与撰写本文档。
